@@ -1,0 +1,7 @@
+.image_carousel{max-width:550px;}
+		body, html{margin: 0; padding: 0;}
+		.button{padding:1em 2em; border:none; margin-right:1em; font-family:Arial;background-color:#cfdce8;}
+		.links{display:inline-block; padding:1em; margin-right:1em; font-family:Verdana; color:#cfdce8;}
+		.button:hover{cursor:pointer;background-color:#b3cce9;}
+		.buttons_div, .links_div{text-align:right; width:320px;margin-top:1em;}
+		

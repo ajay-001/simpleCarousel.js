@@ -1,0 +1,40 @@
+<html>
+<head>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script>
+		$(function(){
+			$('#foo1').carousel({
+				delay : '3',
+				infinitescroll: 'true',
+				autoscroll: 'true',
+				autoscroll_direction: 'right',
+				buttons: 'true', 
+				links: 'false', 
+				keyboard_nav: 'true'});
+		});
+		
+	</script>	
+	<link rel='stylesheet' href='css/carousel.css' />
+</head>
+<body>
+
+
+<div class="image_carousel">
+	<div id="foo1">
+		<img src="img/1.jpg" alt="Train" width="320" height="208" />
+		<img src="img/2.jpg" alt="Car" width="320" height="208" />
+    <img src="img/3.jpg" alt="Bike" width="320" height="208" />
+    <img src="img/4.jpg" alt="House" width="320" height="208" />
+    <img src="img/5.jpg" alt="House" width="320" height="208" />
+    <img src="img/6.jpg" alt="House" width="320" height="208" />    
+	</div>
+	<div class="clearfix"></div>
+	
+	
+</div>
+
+
+  </body>
+</html>  
