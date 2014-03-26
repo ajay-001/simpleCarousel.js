@@ -54,3 +54,13 @@ $('#carousel_div').carousel();
     	<td>pass 'true' or 'false'</td>
     </tr>
 </table>
+
+### 'infinitescroll'
+
+if 'false', keeps the exisitng DOM image listing constant and will wrap around to the front or back of the existing list;
+
+ if 'true', rearranges the 6 images in the DOM continuously. Since the CodePen references external images, these images may have to be re-downloaded every time an image is reordered in the DOM and may result in lag
+ 
+### Concerns
+
+how mutiple features will work together- 'autoscroll + 'keyboard_nav' (duplicate images or no image may appear in the set if the user uses the keyboard keys while the autoscroll is changing the image)
