@@ -55,7 +55,7 @@ $('#carousel_div').carousel();
     </tr>
 </table>
 
-### 'infinitescroll'
+#### 'infinitescroll'
 
 if 'false', keeps the exisitng DOM image listing constant and will wrap around to the front or back of the existing list;
 
